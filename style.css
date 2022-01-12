@@ -1,3 +1,36 @@
 body {
-background-color:715AFF;
+background-color: #715AFF;
+}
+h3 {
+    text-align: center;
+  }
+
+ul{
+  list-style-type: none;
+  background-color: #15E6CD;
+  border-style: dotted;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: left;
+  top: 0;
+  margin: 0;
+}
+li{
+  float: left;
+}
+li a{
+ display: block;
+  color: blue;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+li a:hover {
+  background-color: #0CF574;
+  color: #FF82A9;
+}
+
+iframe{
+  border-style: dotted;
 }
